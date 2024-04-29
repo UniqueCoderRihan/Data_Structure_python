@@ -1,11 +1,11 @@
 class ProductInfo:
-    def __init__(self,name,model,price,ram,ssd,anyDiscount):
-        self.name = name
-        self.model = model
-        self.price = price
-        self.ram = ram
-        self.ssd = ssd
-        self.anyDiscount = anyDiscount
+    def __init__(self,_name,_model,_price,_ram,_ssd,_anyDiscount):
+        self.name = _name
+        self.model = _model
+        self.price = _price
+        self.ram = _ram
+        self.ssd = _ssd
+        self.anyDiscount = _anyDiscount
 
     def ProductDetails(self):
         print('Product name: ', self.name)
